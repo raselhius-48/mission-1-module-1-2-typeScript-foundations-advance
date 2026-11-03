@@ -22,3 +22,22 @@ dhakaLatLong.push(5451);
 // readonly used korle se ar assain ba push korte daina
 const dhakaLatLong1 = [23.8103, 90.4125];
 dhakaLatLong1.push(5451);
+// Optional ,Default,rest parameters in function
+const concatName = (firstName, lastName) => {
+    if (!lastName) {
+        return firstName;
+    }
+    return firstName + " " + lastName;
+};
+console.log(concatName("mir"));
+console.log(concatName("mir", "Hussain"));
+// if not return ,tahle sunnota bujate void hbe 
+const greetings = (greeting, fullName) => {
+    console.log(greeting + " " + fullName);
+};
+greetings("Hello", "mir");
+// type -2
+const greetings2 = (fullName, greeting = "Hello") => {
+    console.log(greeting + " " + fullName);
+};
+greetings2("Hello", "mir");

@@ -26,10 +26,10 @@ console.log(addTwo(150, 250))
 const arr: string[] =["programing", "56454", "herro"]
 const arr1: Array<string> =["Programing", "herro"]
 // int or number array  stucture
-const numArr :number[] = [1, 2, 3]
+// const numArr :number[] = [1, 2, 3]
  
 // Tuple stucture
-const dhakaLatLong : [number, number] = [23.8103, 90.4125]
+// const dhakaLatLong : [number, number] = [23.8103, 90.4125]
 
 dhakaLatLong.push(5451)
  
@@ -66,3 +66,25 @@ const greetings2 = (fullName:string, greeting = "Hello") =>{
 
 greetings2("Hello", "mir")
 
+
+// Rest Parameterrs in function [rest parameter (...ages)]
+
+const numArr :number[] = [1, 2, 3]
+
+ const sum = (...number:number[] ) =>{
+    return numbers.reduce( (total, sum) => total
++sum,0)
+ };
+ const logUserAction =(
+    ...args: [name: string, age:number, isActive: boolean]
+ ) => {
+    const [name, age] = args;
+    console.log(name + " "|+ age);
+ };
+ logUserAction("mir", 192,false)
+
+
+
+// const dhakaLatLong : [number, number] = [23.8103, 90.4125]
+
+ 

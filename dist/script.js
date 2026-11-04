@@ -59,3 +59,16 @@ const user = {
     isActive: true,
     action: () => console.log("Hello")
 };
+{
+    name: string;
+    age: number;
+    isActive: boolean;
+    action: () => void badges;
+    string[];
+}
+const user = {
+    name: string,
+    age: number,
+    isActive: boolean,
+    action: () => void badges, string, []: ,
+};

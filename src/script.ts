@@ -112,3 +112,20 @@ const user:{
     isActive:true;
     action:()=>console.log("Hello")
 }
+
+// Alias 
+
+type User:{
+    name:string;
+    age:number;
+    isActive:boolean;
+    action:()=>void
+    badges:string[];
+}
+const user:User={
+     name:string;
+    age:number;
+    isActive:boolean;
+    action:()=>void
+    badges:string[];
+}

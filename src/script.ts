@@ -96,8 +96,7 @@ const numArr :number[] = [1, 2, 3]
  };
  logUserAction("mir", 192,false)
 
-
-
+ 
 //  ogject type ,type alias and interface
 
 const user:{
@@ -111,8 +110,8 @@ const user:{
     age:43654;
     isActive:true;
     action:()=>console.log("Hello")
+    badges:["abc", "def"],
 }
-
 // Alias 
 
 type User:{
@@ -123,9 +122,36 @@ type User:{
     badges:string[];
 }
 const user:User={
-     name:string;
+     name:["mir"];
+    age:4557;
+    isActive:boolean;
+    action:()=>void
+    badges:string["abc", "def"],
+}
+
+const user2:User ={
+    name:"tanvir";
+    age:4557;
+    isActive:boolean;
+    action:()=>void
+    badges:string["abc", "def"],
+
+}
+
+// interface 
+interface IUser {
+      name:string;
     age:number;
     isActive:boolean;
     action:()=>void
     badges:string[];
+}
+
+const user: IUser ={
+    name:"tanvir";
+    age:4557;
+    isActive:boolean;
+    action:()=>void
+    badges:string["abc", "def"],
+
 }

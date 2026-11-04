@@ -57,7 +57,8 @@ const user = {
     name: "mir",
     age: 43654,
     isActive: true,
-    action: () => console.log("Hello")
+    action: () => console.log("Hello"),
+    badges: ["abc", "def"],
 };
 {
     name: string;
@@ -67,8 +68,20 @@ const user = {
     string[];
 }
 const user = {
-    name: string,
-    age: number,
+    name: ["mir"],
+    age: 4557,
     isActive: boolean,
-    action: () => void badges, string, []: ,
+    action: () => void badges, string, [("abc", "def")]: ,
+};
+const user2 = {
+    name: "tanvir",
+    age: 4557,
+    isActive: boolean,
+    action: () => void badges, string, [("abc", "def")]: ,
+};
+const user = {
+    name: "tanvir",
+    age: 4557,
+    isActive: boolean,
+    action: () => void badges, string, [("abc", "def")]: ,
 };

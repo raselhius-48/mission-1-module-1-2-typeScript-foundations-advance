@@ -52,4 +52,10 @@ const logUserAction = (...args) => {
     console.log(name + " " | +age);
 };
 logUserAction("mir", 192, false);
-// const dhakaLatLong : [number, number] = [23.8103, 90.4125]
+//  ogject type ,type alias and interface
+const user = {
+    name: "mir",
+    age: 43654,
+    isActive: true,
+    action: () => console.log("Hello")
+};

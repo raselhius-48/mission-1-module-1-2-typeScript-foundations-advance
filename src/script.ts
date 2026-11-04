@@ -19,6 +19,9 @@ console.log(addTwo(150, 250))
 
 
 
+
+
+
 // Array and tuple an readonly modifier
    
 // arr and arr1 both same array string
@@ -40,6 +43,10 @@ dhakaLatLong1.push(5451)
 
 
  
+
+
+
+
 // Optional ,Default,rest parameters in function
 
 const  concatName =(firstName:string, lastName?:string) =>{
@@ -67,6 +74,12 @@ const greetings2 = (fullName:string, greeting = "Hello") =>{
 greetings2("Hello", "mir")
 
 
+
+
+
+
+
+
 // Rest Parameterrs in function [rest parameter (...ages)]
 
 const numArr :number[] = [1, 2, 3]
@@ -85,6 +98,17 @@ const numArr :number[] = [1, 2, 3]
 
 
 
-// const dhakaLatLong : [number, number] = [23.8103, 90.4125]
+//  ogject type ,type alias and interface
 
- 
+const user:{
+    name:string;
+    age:number;
+    isActive:boolean;
+    action:()=>void
+    badges:string[];
+} = {
+    name:"mir";
+    age:43654;
+    isActive:true;
+    action:()=>console.log("Hello")
+}
